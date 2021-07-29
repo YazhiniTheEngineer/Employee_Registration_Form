@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Employee Registration Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="container">
+        <h2>EMPLOYEE REGISTRATION PORTAL</h2>
+        <div class="form-outer">
+            <form class="form">
+                <div class="slides slidepage">
+                    <h3 class="title">Personal Details</h3>
+                    <div class="field">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter your name...">
+                    </div>
+                    <div class="field">
+                        <label for="email">Email Id</label>
+                        <input type="email" id="email" placeholder="Enter your Mail Id..">
+                    </div>
+                    <div class="field">
+                        <label for="dob">DOB</label>
+                        <input type="date" id="dob">
+                    </div>
+                    <div class="field">
+                        <label >Gender</label>
+                        <select id="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="others">Others</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="address">Address</label>
+                        <textarea id="address" cols="50" rows="20" placeholder="Enter your Address..."></textarea>
+                    </div>
+                    <div class="field next-btn">
+                        <button>NEXT</button>
+                    </div>
+                </div>
+                <div class="slides form2">
+                    <h3 class="title">Emergency Contact</h3>
+                    <div class="field">
+                        <label for="contact-name">Contact Name</label>
+                        <input type="text" id="contact-name" placeholder="Enter your name...">
+                    </div>
+                    <div class="field">
+                        <label for="contct-email">Contact Email Id</label>
+                        <input type="email" id="contct-email" placeholder="Enter your Mail Id..">
+                    </div>
+                    <div class="field">
+                        <label for="relation">Relationship</label>
+                        <input type="text" list="relations" id="relation">
+                        <datalist id="relations">
+                            <option >Mother/Father/Siblings</option>
+                            <option >Spouse</option>
+                            <option >Friend</option>
+                        </datalist>
+                    </div>
+                    <div class="field btn">
+                        <button class="back2 back">BACK</button>
+                        <button class="next2 next">NEXT</button>
+                    </div>
+                </div>
+                <div class="slides">
+                    <h3 class="title">Declaration</h3>
+                    <div class="field">
+                        <label for="photo-file">Employee Photo</label>
+                        <input type="file" id="photo-file">
+                    </div>
+                    <div class="field">
+                        <label for="sign-file">Employee Signature</label>
+                        <input type="file" id="sign-file">
+                    </div>
+                    <input type="checkbox" id="declaration">&nbsp;I declare that all the above information is correct to the best of my knowledge. 
+                    
+                    <div class="field btn">
+                        <button class="back3 back">BACK</button>
+                        <button class="sumbit">SUBMIT</button>
+                    </div>
+                </div>
+        </form>
+    </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>

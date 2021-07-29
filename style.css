@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/office.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    width:450px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px 15px 5px 55px;
+    height: 90%;
+    margin-top: 5%;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+}
+
+.container .form-outer{
+    width: 100%;
+    height: 90%;
+    overflow: hidden; 
+}
+
+form{
+    display: flex;
+    width: 400%;
+}
+
+form .slides{
+    width: 25%;
+    transition: margin-left 0.5s ease-in-out;
+}
+
+form .slides .title{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+form .slides .field{
+    height: 30px;
+    width: 330px;
+    margin: 45px 0;
+    display: flex;
+    position: relative;
+}
+
+.field input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 15px;
+}
+.field label{
+    position: absolute;
+    top:-30px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.field select,.field datalist{
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    font-size: 500;
+}
+.field input[type=file]{
+    border: none;
+    height: 55px;
+}
+
+.field button{
+    width: 100%;
+    margin-top: -10px;
+    background-color: limegreen;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 3px;
+    transition: 0.3s;
+}
+
+.field button:hover{
+    background-color:rgb(31, 167, 31);
+}
+
+.btn button .back{
+    margin-right: 3px;
+    font-size: 17px;
+}
+.btn button .next{
+    margin-right: 3px;
+    font-size: 17px;
+}
+/* .progress{
+    display: flex;
+    margin: 40px 0;
+}
+
+.progress .step{ 
+    position: relative;
+    text-align: center;
+    width: 100px;   
+}
+.progress .step p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 8px;
+}
+.progress .step:last-child .bullet::before,
+.progress .step:last-child .bullet::after{
+    display: none;
+}
+.progress .step .bullet::before,
+.progress .step .bullet::after{
+    position: absolute;
+    content: '';
+    bottom: 11px;
+    right: -21px;
+    height: 4px;
+    width: 48px;
+    background-color: #262626;
+}
+.progress .step .bullet::after{
+    background-color: #4acf22;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation:animate 0.3s linear forwards;
+}
+@keyframes animate{
+    100%{
+        transform: scaleY(1);
+    }
+}
+
+.progress .step .bullet{
+    height: 25px;
+    width: 25px;
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 50px;
+}
+.progress .step span{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
+.progress .step .check{
+    position:absolute;
+    left: 50%;
+    top:70%;
+    font-size: 15px;
+    transform: translate(-50%,-50%);
+    display: none;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
